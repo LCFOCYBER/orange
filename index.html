@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Página com Ação</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      padding: 20px;
+      background-color: #fff;
+    }
+
+    .text-section {
+      flex: 1;
+      padding: 40px;
+    }
+
+    .text-section h1 {
+      font-size: 32px;
+      color: #333;
+    }
+
+    .text-section p {
+      font-size: 18px;
+      margin-top: 10px;
+      color: #555;
+    }
+
+    .buttons {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .accept-btn {
+      padding: 12px 24px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .reject-btn {
+      padding: 8px 16px;
+      background-color: transparent;
+      color: #888;
+      border: none;
+      font-size: 14px;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+
+    .image-section {
+      flex: 1;
+      padding: 40px;
+    }
+
+    .image-section img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="text-section">
+      <h1>Você aceita os termos?</h1>
+      <p>Para continuar utilizando nossos serviços, por favor leia e aceite os termos e condições.</p>
+      <div class="buttons">
+        <button class="accept-btn">Aceitar</button>
+        <button class="reject-btn">Recusar</button>
+      </div>
+    </div>
+    <div class="image-section">
+      <img src="https://via.placeholder.com/400x300" alt="Imagem ilustrativa">
+    </div>
+  </div>
+
+</body>
+</html>
